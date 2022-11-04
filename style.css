@@ -1,0 +1,29 @@
+h1, p {
+  font-family: Lato;
+}
+html 
+{  background: black;
+   padding: 0px;
+
+}
+
+body{
+  margin:0px;
+}
+.player-wrapper {
+  position: relative;  
+  padding: 0px;
+  
+  
+}
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px;
+}
+
+video::-internal-media-controls-overlay-cast-button {
+  display: none;
+}
+
